@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <h2>FIT ZONE</h2>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+    <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+<section id="home" class="hero"data-aos="fade-up">
+
+    <div class="content">
+
+        <h1>Transform Your Body</h1>
+
+        <p>Strong Body • Strong Mind</p>
+
+        <a href="#contact" class="join-btn">Join Now</a>
+
+    </div>
+
+</section>
+
+          <section id="programs" class="features"data-aos="fade-up">
+
+    <div class="card">
+        <div class="card" data-aos="flip-left"></div>
+        <h2>💪 Strength</h2>
+        <p>Build muscle with expert trainers.</p>
+    </div>
+
+    <div class="card">
+        <div class="card" data-aos="flip-left"></div>
+        <h2>🔥 Fat Loss</h2>
+        <p>Customized workout & diet plans.</p>
+    </div>
+
+    <div class="card">
+        <div class="card" data-aos="flip-left"></div>
+        <h2>🥗 Nutrition</h2>
+        <p>Healthy meal guidance for everyone.</p>
+    </div>
+</section>
+<section id="trainers" class="trainers"data-aos="fade-up">
+    <h2>Our Trainers</h2>
+
+    <div class="trainer-card">
+        <div class="trainer-card" data-aos="zoom-in"></div>
+        <img src="trainer1.jpg" alt="Trainer">
+        <h3>Alex</h3>
+        <p>Strength Coach</p>
+    </div>
+
+    <div class="trainer-card">
+        <div class="trainer-card" data-aos="zoom-in"></div>
+        <img src="trainer2.jpg" alt="Trainer">
+        <h3>Amit</h3>
+        <p>Yoga Trainer</p>
+    </div>
+
+    <div class="trainer-card">
+        <div class="trainer-card" data-aos="zoom-in"></div>
+        <img src="trainer3.jpg" alt="Trainer">
+        <h3>Cbum</h3>
+        <p>Cardio Expert</p>
+    </div>
+</section>
+<section id="pricing" class="pricing" data-aos="zoom-in">
+    <h2>Membership Plans</h2>
+
+    <div class="plans">
+
+
+        <div class="plan">
+            <div class="plan" data-aos="flip-up"></div>
+            <h3>Basic</h3>
+            <p>₹800/month</p>
+        </div>
+
+        <div class="plan">
+            <div class="plan" data-aos="flip-up"></div>
+            <h3>Pro</h3>
+            <p>₹1500/month</p>
+        </div>
+
+        <div class="plan">
+            <div class="plan" data-aos="flip-up"></div>
+            <h3>Premium</h3>
+            <p>₹2100/month</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="testimonials" class="testimonials" data-aos="fade-left">
+    <h2>What Our Members Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial">
+            <div class="testimonial" data-aos="fade-up"></div>
+            <p>"Amazing gym with excellent trainers!"</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <h4>Rahul Sharma</h4>
+        </div>
+
+        <div class="testimonial">
+            <div class="testimonial" data-aos="fade-up"></div>
+            <p>"I achieved my fitness goal in just 4 months."</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <h4>Priya Verma</h4>
+        </div>
+
+        <div class="testimonial">
+            <div class="testimonial" data-aos="fade-up"></div>
+            <p>"Best equipment and friendly environment."</p>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <h4>Aman Singh</h4>
+        </div>
+
+    </div>
+
+</section>
+<section id="contact" class="contact" data-aos="zoom-in-up">
+    <h2>Contact Us</h2>
+    <p class="contact-text">
+Have questions? We'd love to hear from you. Fill out the form below and our team will contact you within 24 hours.
+</p>
+
+    <form class="contact-form" id="contactForm">
+
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+        <div class="contact-info">
+    <p>📍 LUCKNOW, India</p>
+    <p>📞 +91 9560987690</p>
+    <p>📧 fitzone@gmail.com</p>
+    <p>🕒 Mon - Sat : 6:00 AM - 10:00 PM</p>
+</div>
+
+    </form>
+</section>
+<section id="faq" class="faq" data-aos="fade-up">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+        <h3>❓ Do you offer a free trial?</h3>
+        <p>Yes! We provide a 3-day free trial for all new members.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ What are your gym timings?</h3>
+        <p>We are open Monday to Saturday from 6:00 AM to 10:00 PM.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ Do you provide personal trainers?</h3>
+        <p>Yes, certified personal trainers are available for all Pro and Premium members.</p>
+    </div>
+
+    <div class="faq-item">
+        <h3>❓ Is diet guidance included?</h3>
+        <p>Yes, Pro and Premium plans include customized diet guidance.</p>
+    </div>
+
+</section>
+<footer id="footer" class="footer" data-aos="fade-up">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>FIT ZONE</h2>
+            <p>Transform Your Body • Strong Body • Strong Mind</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Programs</a>
+            <a href="#">Trainers</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>📍Lucknow India</p>
+            <p>📞 +91 9560987690</p>
+            <p>📧 fitzone@gmail.com</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#">🌐</a>
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+                <a href="#">▶️</a>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 FIT ZONE | All Rights Reserved.
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
+<script>
+const form = document.getElementById("contactForm");
+
+if (form) {
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        alert("Thank you! Your message has been received. 💪");
+        form.reset();
+    });
+</script>
+<script>
+function toggleMenu() {
+    const menu = document.querySelector("nav ul");
+
+    if (menu) {
+        menu.classList.toggle("active");
+    }
+}
+
+document.querySelectorAll("nav ul a").forEach(function(link) {
+    link.addEventListener("click", function() {
+        document.querySelector("nav ul").classList.remove("active");
+    });
+});
+</script>
+</body>
+</html>
+    
